@@ -1,0 +1,71 @@
+.Hidden {
+
+opacity: 1%;
+
+position: fixed;
+bottom: 0.1%;
+
+}
+
+.Hidden:hover {
+
+opacity: 100%;
+animation-name:WinnerAni;
+animation-delay: 0.1s;
+animation-duration:0.5s ;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes WinnerAni {
+
+14% {color: red; opacity: 100}
+28% {color: orange;opacity: 100%}
+42% {color: yellow;opacity: 100%}
+56% {color: green;opacity: 100%}
+70% {color: blue;opacity: 100%}
+84% {color: purple;opacity: 100%}
+100%{color: violet;opacity: 100%}
+
+}
+
+.arrow1 {
+opacity: 1%;
+}
+.arrow1:hover {
+opacity: 20%;
+}
+
+
+
+.Platform {
+opacity: 10%;
+position: relative;
+}
+
+
+.Platform:hover{
+opacity: 100%;
+animation-name:PlatformAni;
+animation-delay: 0.5s;
+animation-duation:5s ;
+
+
+}
+
+
+
+@keyframes PlatformAni {
+
+0% {left: 0%; top: 0%}
+20% {left: 10%; top: 50%}
+40% {left: 90%; top: 0%}
+60% {left: 50%; top: 40%}
+80% {left: 75%; top: 60%}
+90% {left: 80%; top: 90}
+100%{left: 0%;top: 95%}
+
+
+}
+
+
